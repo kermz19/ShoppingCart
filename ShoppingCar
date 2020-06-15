@@ -1,0 +1,4 @@
+class ShoppingCart:
+	def __init_():
+		_total = 0
+		_items = []_
