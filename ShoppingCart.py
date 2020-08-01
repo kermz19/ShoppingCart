@@ -1,4 +1,14 @@
 #! /usr/bin/env python3
+class Inventory:
+	#list of items and quantities in stock
+	def __init__(self, itemsInInventory = {}):
+		self.itemsIninventory = itemsInInventory
+		#item
+		#quantity
+		#price
+		
+		
+	
 class ShoppingCart:
 	def __init__(self):
 		self._total = 0
@@ -29,8 +39,3 @@ print(Cart1._total)
 Cart1.checkout(20)
 
 
-
-
-
-
-	
